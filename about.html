@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Dholakpur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="IMAGE"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()" style="color: orange; font-size: 60px;"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" style="color: orange; font-size: 60px;"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section>
+        <!-- About us content -->
+        <setion class="about">
+            <div class="row">
+                <div class="aboutcol">
+                    <h1>
+                        Our Mission
+                    </h1>
+                    <p>Our Mission at IIT Dholakpur is to cultivate a transformative educational experience that empowers students to become outstanding contributors to society. We strive to provide a dynamic learning environment that fosters intellectual growth, critical thinking, and innovative problem-solving skills. Through our rigorous academic programs, state-of-the-art research initiatives, and a commitment to holistic development, we aim to nurture leaders who will drive positive change in their respective fields. Our mission is fueled by a passion for excellence, a dedication to ethical values, and a relentless pursuit of knowledge. Join us at IIT Dholakpur, where we aspire to shape the future through education, innovation, and societal impact.</p>
+                    <a href="" class="herobtn">EXPLORE NOW!</a>
+                </div>
+                <div class="aboutcol">
+                    <img src="img/about.jpg" alt="">
+                </div>
+            </div>
+        </setion>
+    </section>
+    <footer>
+        <h2>About Us</h2>
+        <p>Welcome to IIT Dholakpur! We inspire excellence, foster innovation, and empower future leaders.<br>Join us on a transformative educational journey. </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f facebook-icon" style="color: #ff0000;"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den"><i class="fa-brands fa-twitter twitter-icon" style="color: #ff0000;"></i></a>
+            <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram instagram-icon" style="color: #ff0000;"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp whatsapp-icon" style="color: #ff0000;"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in linkedin-icon" style="color: #ff0000;"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Razen</p>
+    </footer>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

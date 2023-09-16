@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Dholakpur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="IMAGE"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()" style="color: orange; font-size: 60px;"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" style="color: orange; font-size: 60px;"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <section>
+        <!-- contact us content -->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13756.97032114811!2d77.74303633512642!3d30.457566490530063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f2fe53b034465%3A0x4796e56dcb21cd75!2sDholakpur%20colony!5e0!3m2!1sen!2sus!4v1689015550148!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="contact">
+            <div class="row">
+                <div class="contactcol">
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>
+                            FP4X+P9C, Dehradun, Uttarakhand 248198, India
+                        </h5>
+                    </span>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>
+                            +916969696969 <br>
+                            Monday to Satuday, 09AM to 06PM
+                        </h5>
+                    </span>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>
+                            iitdholakhpur.gmail.com
+                        </h5>
+                    </span>
+                </div>
+                <div class="contactcol">
+                    <form action="">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your email" required>
+                        <input type="text" placeholder="Enter your subject" required>
+                        <textarea rows="8" placeholder="Message" required></textarea>
+                        <button class="herobtn">SUBMIT</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <h2>About Us</h2>
+        <p>Welcome to IIT Dholakpur! We inspire excellence, foster innovation, and empower future leaders.<br>Join us on a transformative educational journey. </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f facebook-icon" style="color: #ff0000;"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den"><i class="fa-brands fa-twitter twitter-icon" style="color: #ff0000;"></i></a>
+            <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram instagram-icon" style="color: #ff0000;"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp whatsapp-icon" style="color: #ff0000;"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in linkedin-icon" style="color: #ff0000;"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Razen</p>
+    </footer>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

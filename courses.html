@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Dholakpur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="IMAGE"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()" style="color: orange; font-size: 60px;"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" style="color: orange; font-size: 60px;"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <section>
+        <!-- course content -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Discover our diverse range of courses at IIT Dholakpur. Our programs blend theory and practice, led by expert faculty members who foster critical thinking and creativity. From technology to business, arts to sciences, find your perfect educational pathway to unlock your potential. Join us in shaping a successful future through our dynamic courses.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p><a href="">1. Science Stream</a>
+                        <br>
+                        <a href="">2. Commerce Stream</a>
+                        <br>
+                        <a href="">3. Humanities Stream</a>
+                        <br>
+                        <a href="">4. Vocational Courses</a>
+                        <br>
+                        <a href="">5. Interdisciplinary Courses</a>
+                        </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p><a href="">1. Bachelor of Technology (B.Tech)</a>
+                        <br>
+                        <a href="">2. Bachelor of Science (B.Sc)</a>
+                        <br>
+                        <a href="">3. Bachelor of Business Administration (BBA)</a>
+                        <br>
+                        <a href="">4. Bachelor of Arts (BA)</a>
+                        <br>
+                        <a href="">5. Bachelor of Commerce (B.Com)</a></p>
+                </div>
+                <div class="course-col">
+                    <h3>Post-Graduation</h3>
+                    <p><a href="">1. Master of Technology (M.Tech)</a>
+                        <br>
+                        <a href="">2. Master of Science (M.Sc)</a>
+                        <br>
+                        <a href="">3. Master of Business Administration (MBA)</a>
+                        <br>
+                        <a href="">4. Master of Arts (MA)</a>
+                        <br>
+                        <a href="">5. Master of Commerce (M.Com)</a>
+                    <br>
+                <a href="">6. Master of Pharmacy (MPharm)</a>
+                <br>
+                <a href="">7. Master of Design (MDes)</a><br>
+                <a href="">8. Master of Laws (LLM)</a><br>
+                <a href="">9. Master of Health Administration (MHA)</a><br>
+                <a href="">10. Master of Public Administration (MPA)</a><br>
+                <a href="">11. Master of Science in Nursing (MSN)</a>
+            </p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- Facilities -->
+    
+    <footer>
+        <h2>About Us</h2>
+        <p>Welcome to IIT Dholakpur! We inspire excellence, foster innovation, and empower future leaders.<br>Join us on a transformative educational journey. </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f facebook-icon" style="color: #ff0000;"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den"><i class="fa-brands fa-twitter twitter-icon" style="color: #ff0000;"></i></a>
+            <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram instagram-icon" style="color: #ff0000;"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp whatsapp-icon" style="color: #ff0000;"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in linkedin-icon" style="color: #ff0000;"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Razen</p>
+    </footer>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
